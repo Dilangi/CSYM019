@@ -1,0 +1,5 @@
+margin, border, padding is the order it lays
+em is better than px because it is responsive. em encourage by the element size but px encourange by its own unit of 'dot'
+
+vh/vw: viewport based on trhe browser window size,
+%: is based on the container size

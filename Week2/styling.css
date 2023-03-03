@@ -1,0 +1,81 @@
+/*element name: apply to an specific class (header 1 class) */
+h1{
+    color: green;
+}
+
+/* class name: apply to the given style category.  class="common"  */
+.common{
+    color:blueviolet;
+}
+
+/* id name: apply to the given specific id. (id="myid")  NOT A GOOD APPROACH*/
+#myid{
+    color:brown;
+}
+
+/* combine elements: can specify more specifically when creating the style in css. THIS IS FOR ANY GRAND CHILD*/
+.mydiv input{font-style: italic;
+    border: 3px solid #666b;
+    background-color: aqua;
+}
+
+/* combine elements: can specify more specifically when creating the style in css. THIS IS FOR EXACT CHILD*/
+.mydiv > input{font-style: italic;
+    border: 3px solid #666b;
+    background-color: aqua;
+}
+
+/* *******************DIFFERENT STYLING********************* */
+/* inline element. if two paragraphs available, then they appear in the same line where vertically inlined.  the style ends with the paragraph is end*/
+p{
+    display:inline;
+    width: 150px; /*this has no effect  *************TRY THIS NOT SURE*******/
+    background-color: blueviolet;
+}
+
+
+/* block element. if two paragraphs availabke, then they appear as horizontal seperate blocks and the style apply until the whole block ends*/
+p{
+    display:block;
+    background-color: blueviolet;
+    width: 150px; /*this has effect*/
+}
+
+/*use float: to apply width effect with inline view by using block, we can use float property*/
+p{
+    display:block;
+    background-color: blueviolet;
+    width: 150px;
+    float: left
+}
+
+/*overflow property with container****WHAT DOES IT DO: when we use float property, the bg color does not apply in normal way. so we need to use overflow property*************
+background-color: red;
+ overflow: auto; */
+
+/*border-radius: 20px;
+border: 3px solid #666;
+box-shadow: 3px 3px 3px #000;
+margin-bottom: 10px;
+background-color: darkblue;
+padding: 10px;
+text-transform: uppercase;
+color: white;
+
+width: 150px;
+ float: right;
+
+inline and block are display properties
+
+order of values: border size pattern color
+
+properties in body(containner)
+display:grid
+grid-template-columns: 30%,50%,20%.
+grid-template-rows: auto;
+grid-template-area:"header,header,header"
+"nav,main, aside"
+"footer"
+grid-area types: header, main, nav, aside, footer is a property of the 
+display types: table, flex, grid, blick, inline
+*/

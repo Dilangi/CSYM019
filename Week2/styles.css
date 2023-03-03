@@ -1,0 +1,18 @@
+.greenFont{
+    color:green;
+}
+
+h1{
+    color: red;
+}
+
+.whiteFblackBG{
+    color: white;
+    background-color: black;
+    display:inline;
+}
+
+.greenFDarkBG{
+    background-color: rgba(89, 4, 108, 0.945);
+    display:inline;
+}
