@@ -72,7 +72,7 @@ function triggerKey(event){
     else if(event.keyCode==40){
         timer = setInterval(moveDown,10);
     }
-}
+} 
 
 function loadAll(){
     var element = document.getElementById('circle');
