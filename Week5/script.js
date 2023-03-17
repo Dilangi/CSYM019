@@ -37,7 +37,7 @@ function loadAll(){
     // element.style.opacity="0.5";
     element.style.opacity="1";
     // element.addEventListener('click', moveLeft);
-    document.addEventListener('keydown',triggerKey(Event));
+    document.addEventListener('keydown',triggerKey);
 }
 
 document.addEventListener('DOMContentLoaded',loadAll)
