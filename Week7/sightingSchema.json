@@ -10,7 +10,7 @@
                 "type": "object",
                 "properties":{
                     "id":{"type":"integer"},
-                    "animal":{"type":"string"},
+                    "animal":{"type":"string", "enum":["Beaver","Hare", "Pine Martin", "Otter", "Snowly Owl"]},
                     "number":{"type":"integer"},
                     "location":{"type":"string"},
                     "date":{"type":"string"},
